@@ -5,11 +5,14 @@ const mockServer = 'http://39.98.50.163:3000/mock/995';
 
 module.exports = {
   mock: {
-    '/spaas-application-center': mockServer,
-    '/deepexi-cloud': mockServer,
+    '/deepexi-dashboard': mockServer,
+    '/xpaas-enterprise-contact': mockServer,
+    '/xpaas-console-api': mockServer,
+    '/training': 'http://39.100.141.76:3000/mock/107',
   },
   dev: {
-    '/spaas-application-center': apiServer,
-    '/deepexi-cloud': apiServer,
+    '/deepexi-dashboard': apiServer,
+    '/xpaas-enterprise-contact': apiServer,
+    '/xpaas-console-api': apiServer,
   },
 };

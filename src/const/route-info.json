@@ -1,1 +1,7 @@
-{}
+{
+   "/store": {
+      "title": "门店列表",
+      "appType": "1",
+      "enable": false
+   }
+}
